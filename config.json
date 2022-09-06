@@ -1,0 +1,11 @@
+{
+  "radio": {
+    "stream": "https://streams.ilovemusic.de/iloveradio103.mp3", 
+    "volume": 100
+  },
+
+  "discord": {
+    "token": "ODY1MjY3MDc2NTAzMzA2MjQx.GTUYqj.EJSURwrao2yPQ_pxyM5wjcXO1DNpd8zQymuzHU",
+    "channel": "925768752124026911"
+  }
+}

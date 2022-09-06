@@ -1,0 +1,23 @@
+{
+  "name": "discord-radio-bot",
+  "version": "1.0.3",
+  "description": "Plays radio streams directly inside your Discord server.",
+  "main": "src/Main.js",
+  "scripts": {
+    "start": "node .",
+    "install-service": "sudo yarn add -g forever forever-service && sudo forever-service install discord-radio-bot src/Main.js",
+    "delete-service": "sudo yarn add -g forever forever-service && sudo forever-service delete discord-radio-bot"
+  },
+  "author": {
+    "name": "Farzad Z3r0",
+    "email": "farzadzx123456@gmail.com",
+    "url": "https://syma.ml"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "eris": "^0.14.1",
+    "express": "^4.18.1",
+    "ffmpeg-inject": "^1.0.0",
+    "icecast-parser": "^4.0.2"
+  }
+}
